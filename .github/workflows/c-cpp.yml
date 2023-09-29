@@ -17,3 +17,5 @@ jobs:
       uses: jurplel/install-qt-action@v3
     - name: qmake
       run: qmake mbseedkey.pro
+    - name: make
+      run: make
